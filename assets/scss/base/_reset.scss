@@ -1,0 +1,25 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*:focus {
+    outline: none;
+}
+
+
+$main-color: #ffffff;
+$body-p-color: #828282;
+
+$base-color: #4285f4;
+
+body {
+    font-family: $body-font;
+    font-size: 16px;
+    font-weight: 400;
+
+    color: $body-p-color;
+    background-color: $main-color;
+
+}
